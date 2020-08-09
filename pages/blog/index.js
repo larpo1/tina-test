@@ -19,7 +19,7 @@ const Blog = (props) => {
     >
       <Head title="Blog" />
       <Container>
-        <h1>Blog</h1>
+        <h1>Blog test</h1>
         {props.posts.map((post) => {
           return <BlogCard key={post.fileName} post={post} />
         })}
